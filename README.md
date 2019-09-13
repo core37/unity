@@ -7,4 +7,4 @@ Blog地址：https://blog.csdn.net/core37/article/details/100716466
 文件目录结构：
 hw2/
   test1：存放第一部分作业的编程练习代码
-  井字棋：存放井字棋作业项目代码
+  井字棋：存放井字棋作业项目代码、视频
