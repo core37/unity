@@ -1,16 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using myGame;
+using myspace;
 
-namespace myGame
+namespace myspace
 {
 
     public class SSActionManager : MonoBehaviour, ISSActionCallback
     {
         private Dictionary<int, SSAction> actions = new Dictionary<int, SSAction>();    //将执行的动作的字典集合
         private List<SSAction> waitingAdd = new List<SSAction>();                       //等待去执行的动作列表
-        private List<int> waitingDelete = new List<int>();                              //等待删除的动作的key                
+        private List<int> waitingDelete = new List<int>();                              //等待删除的动作的key
 
         protected void Update()
         {

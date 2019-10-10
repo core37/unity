@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace myGame
+namespace myspace
 {
     public class Ruler
     {

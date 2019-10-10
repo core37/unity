@@ -1,9 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using myGame;
+using myspace;
 
-namespace myGame
+namespace myspace
 {
     public class UserGUI : MonoBehaviour
     {
@@ -16,7 +16,6 @@ namespace myGame
         void Start()
         {
             action = Director.GetInstance().currentSceneController as UserAction;
-            Debug.Log("gene");
         }
 
         private void Update()

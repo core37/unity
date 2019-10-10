@@ -1,9 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using myGame;
+using myspace;
 
-namespace myGame
+namespace myspace
 {
     public class SequenceAction : SSAction, ISSActionCallback
     {
